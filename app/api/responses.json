@@ -1,0 +1,81 @@
+{
+  "greetings": [
+    { "pattern": "Good day", "response": "Good day, I am Redan. How can I assist you?" }
+  ],
+  "fuel_prices": [
+    { "pattern": "How much is your diesel?", "response": "Kindly share your location for correct prices." },
+    { "pattern": "I am in Masasa", "response": "Diesel is 1.49/L" },
+    { "pattern": "How much is your petrol?", "response": "Kindly share your location for correct prices." },
+    { "pattern": "I am in Masasa", "response": "Petrol is 1.49/L" }
+  ],
+  "bulk_purchase": [
+    { "pattern": "Do you have discounts on bulk purchases?", "response": "Yes we do, How many liters do you want to purchase?" },
+    { "pattern": "I am looking at about a thousand liters", "response": "For detailed discount information let me redirect you to our sales team at customersupport@redan.co.zw" }
+  ],
+  "payment_options": [
+    { "pattern": "What are your payment options?", "response": "We accept Cash, Ecocash USD, Swipe USD, Swipe cards, and Coupons" },
+    { "pattern": "On swipe do you accept international VISA?", "response": "Yes we do accept local and international VISAs." }
+  ],
+  "fuel_cards": [
+    { "pattern": "How do your fuel cards work?", "response": "You first open a Redan account, once the account is open you get a Card." },
+    { "pattern": "How do I open an account with you?", "response": "For more information on account opening click here to speak to a human agent", "link": "mailto:customersupport@redan.co.zw?subject=Account Opening Inquiry&body=Hello Redan Team, I would like to know more about opening an account."}
+  ],
+  "coupons": [
+    { "pattern": "How do I get to use the coupons?", "response": "Kindly click here to purchase coupons.", "link": "mailto:customersupport@redan.co.zw?subject=Bulk Purchase Discount Inquiry&body=Hello Redan Team, I am interested in bulk purchase discounts. Could you please provide more details?"},
+    { "pattern": "Do you accept Petrotrade coupons?", "response": "We currently accept Redan coupons only." }
+  ],
+  "locations": [
+    { "pattern": "Where are you located?", "response": "We have several sites across the country. Click here.", "link": "https://www.redan.co.zw/locations" },
+    { "pattern": "Can I pay at one site and collect at a different site?", "response": "Yes we have that facility." },
+    { "pattern": "How does that facility work?", "response": "Simply make your payment and provide details of the vehicle fuelling on a different site." }
+  ],
+  "account_opening": [
+    { "pattern": "What are the steps for opening an account?", "response": "First you request a quotation for the liters you want.\nIf you accept the quotation, attach your completed form and identity particulars of the contact person, the quotation together with the payment and email to sales@redan.co.zw\nWithin two days your account will be ready to transact." },
+    { "pattern": "After opening the account, where do I access the fuel?", "response": "Click here for Redan sites locator in the country.", "link": "https://www.redan.co.zw/locations" }
+  ],
+  "security": [
+    { "pattern": "If I lose my card what happens?", "response": "Quickly report here. We will block the card and upon your request issue a new one." },
+    { "pattern": "If my coupons are stolen what happens?", "response": "Quickly report here. We will block the coupons and flag them stolen." }
+  ],
+  "account_features": [
+    { "pattern": "Is there a way to view my transactions?", "response": "Once your account is created we give you access to our portal where you can view all your transactions." },
+    { "pattern": "Do you have a prepayment facility?", "response": "Yes we have." },
+    { "pattern": "How does it work?", "response": "Approach any of our sites and request to open a FlexiFuel wallet." },
+    { "pattern": "How does FlexiFuel work?", "response": "Provide your phone number and details of your account.\nAfter furnishing these details, make your payment and you can fuel when you want." }
+  ],
+  "credit_facilities": [
+    { "pattern": "Do you also have credit facilities?", "response": "Sure, but they are subject to approval by management." },
+    { "pattern": "What are the terms of credit?", "response": "Click here." }
+  ],
+  "fuel_type": [
+    { "pattern": "Can I fuel with petrol if I have diesel in my card?", "response": "Send in request to convert diesel to petrol here." },
+    { "pattern": "Can I fuel with petrol if I have diesel coupons?", "response": "Send in request to convert diesel to petrol here." }
+  ],
+  "delivery": [
+    { "pattern": "Do you deliver products?", "response": "Yes we have bulk deliveries, starting from 5000L." },
+    { "pattern": "How much do you charge?", "response": "Depending on the roads, we usually charge $1 per KM." }
+  ],
+  "fuel_options": [
+    { "pattern": "Do you have ULP?", "response": "We currently do not have ULP in stock. We have Blend." },
+    { "pattern": "What is your blending ratio?", "response": "Our blending ratio is determined by ZERA, click here." },
+    { "pattern": "Is Blend safe for my car?", "response": "For most cars it's safe, but follow manufacturers recommendations." },
+    { "pattern": "What type of diesel do you have?", "response": "We have Diesel50." },
+    { "pattern": "Why diesel 50?", "response": "It's mandated by the government." },
+    { "pattern": "What advantages does D50 have over traditional diesel?", "response": "It has less impurities and thus safer for your engine." },
+    { "pattern": "Do you have paraffin in stock?", "response": "We do not have paraffin in stock." }
+  ],
+  "electric_vehicles": [
+    { "pattern": "Do you have charging points for Electrical Vehicles?", "response": "We are planning towards establishing charging points for E.Vs in every major city." }
+  ],
+  "pricing": [
+    { "pattern": "Why are your prices so high?", "response": "We give you the best value for your money." },
+    { "pattern": "But some service stations are cheaper?", "response": "We price our products competitively being guided by prevailing ZERA prices." }
+  ],
+  "coupon_redemption": [
+    { "pattern": "If I cannot redeem all my fuel on a coupon what happens.", "response": "We recommend that you redeem coupons in full." },
+    { "pattern": "Do you give change for coupons?", "response": "We do not redeem coupons for cash." }
+  ],
+  "farewell": [
+    { "pattern": "Thank you", "response": "Thank you, Redan enhancing lives on the Move!!!" }
+  ]
+}
